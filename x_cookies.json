@@ -1,0 +1,112 @@
+[
+  {
+    "name": "guest_id_marketing",
+    "value": "v1%3A173980482801857131",
+    "domain": ".twitter.com",
+    "path": "/",
+    "expires": 1774364827.3989,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "guest_id_ads",
+    "value": "v1%3A173980482801857131",
+    "domain": ".twitter.com",
+    "path": "/",
+    "expires": 1774364827.398949,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "personalization_id",
+    "value": "\"v1_Vji0L2YNiL/FJMBMZgb4eA==\"",
+    "domain": ".twitter.com",
+    "path": "/",
+    "expires": 1774364827.398963,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "guest_id",
+    "value": "v1%3A173980482801857131",
+    "domain": ".twitter.com",
+    "path": "/",
+    "expires": 1774364827.398973,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "guest_id",
+    "value": "173980482801857131",
+    "domain": ".x.com",
+    "path": "/",
+    "expires": 1771340827.615798,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "night_mode",
+    "value": "2",
+    "domain": ".x.com",
+    "path": "/",
+    "expires": 1772012471.131457,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "guest_id_marketing",
+    "value": "v1%3A173980482801857131",
+    "domain": ".x.com",
+    "path": "/",
+    "expires": 1775036470.57476,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "guest_id_ads",
+    "value": "v1%3A173980482801857131",
+    "domain": ".x.com",
+    "path": "/",
+    "expires": 1775036470.57526,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "NID",
+    "value": "521=b5h7Vuljpn7WCuQORlbb6OWwEzJT96E1HUCWlO5TB3s9JuesVTht8EibJ61VQ1foaRNud8aqS3CE6YGT4eXAWW013sww6CLmi1UznrbQVBrmGCHEoyiKrrBAr36IqpeM2CHRifJdWz18BH3A1UxoctT20oHSx-aHBRhODbBWDx7vRtyGiboFS9w74Vw",
+    "domain": ".google.com",
+    "path": "/",
+    "expires": 1755616706.45588,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "personalization_id",
+    "value": "\"v1_yD6B2eJiJClwGwb1aMhNyg==\"",
+    "domain": ".x.com",
+    "path": "/",
+    "expires": 1775036470.576789,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "gt",
+    "value": "1894321735094477278",
+    "domain": ".x.com",
+    "path": "/",
+    "expires": 1740485470.581621,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]

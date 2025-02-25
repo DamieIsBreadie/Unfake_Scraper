@@ -1,0 +1,25 @@
+import json
+import pandas as pd
+
+# 🔹 Step 1: Load the JSON file
+file_name = "backup.json"  # Update this with your file name!!!
+
+try:
+    with open(file_name, "r", encoding="utf-8") as file:
+        tweets_data = json.load(file)
+except Exception as e:
+    print(f"Error reading JSON file: {e}")
+    exit()
+
+# 🔹 Step 2: Convert JSON to DataFrame
+df = pd.DataFrame(tweets_data)
+
+# 🔹 Step 3: Save to Excel (.xlsx)
+#excel_filename = "raw_tweets_extracted.xlsx"
+#df.to_excel(excel_filename, index=False)
+#print(f"✅ Data saved to {excel_filename}")
+
+# 🔹 Step 4: Save to CSV (.csv) for Word compatibility
+csv_filename = "raw_tweets_extracted.csv"
+df.to_csv(csv_filename, index=False)
+print(f"✅ Data saved to {csv_filename}")
