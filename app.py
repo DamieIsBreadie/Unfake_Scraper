@@ -67,9 +67,9 @@ def submit_vote():
             return jsonify({"error": "Failed to scrape tweet"}), 500
 
         tweet_data = {
-            "tweet_id": tweet_id,
-            "tweet_link": tweet_url,
-            "tweet_text": tweet_info["tweet_text"],  # Store tweet text
+            "post_id": tweet_id,
+            "post_link": tweet_url,
+            "post_text": tweet_info["tweet_text"],  # Store tweet text
             "votes_count": {"Real": 0, "Uncertain": 0, "Fake": 0},
             "total_votes": 0,  # ✅ Initialize total votes
             "evidence_list": {"Real": [], "Uncertain": [], "Fake": []}
