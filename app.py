@@ -4,6 +4,7 @@ import json
 from scrapfly_scraper import scrape_single_tweet, save_to_file
 import firebase_admin
 from firebase_admin import credentials, firestore
+import requests
 
 app = Flask(__name__)
 
@@ -90,7 +91,21 @@ def submit_vote():
     # Save updated data to Firestore
     tweet_ref.set(tweet_data)
 
-    return jsonify({"status": "success"}), 200
+    # 🔹 Notify AI Server (`port 5001`) to run Checked Algorithm
+    ai_server_url = "http://localhost:5001/result"
+    params = {"post_id": tweet_id}
+
+    try:
+        response = requests.get(ai_server_url, params=params, timeout=10)
+        ai_result = response.json()
+        print(f"[DEBUG] Checked Algorithm result: {ai_result}")
+
+        return jsonify({"status": "success", "checked_algorithm_result": ai_result}), 200
+    except Exception as e:
+        print(f"[ERROR] Failed to notify AI Server: {e}")
+        return jsonify({"status": "vote stored but AI check failed", "error": str(e)}), 500
+
+    # return jsonify({"status": "success"}), 200
 
 def submit_voteOnly():
      i = "yippe"

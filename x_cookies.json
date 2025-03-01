@@ -54,7 +54,7 @@
     "value": "2",
     "domain": ".x.com",
     "path": "/",
-    "expires": 1772253367.103304,
+    "expires": 1772368867.74015,
     "httpOnly": false,
     "secure": true,
     "sameSite": "None"
@@ -64,7 +64,7 @@
     "value": "v1%3A173980482801857131",
     "domain": ".x.com",
     "path": "/",
-    "expires": 1775277366.592264,
+    "expires": 1775392867.053693,
     "httpOnly": false,
     "secure": true,
     "sameSite": "None"
@@ -74,7 +74,7 @@
     "value": "v1%3A173980482801857131",
     "domain": ".x.com",
     "path": "/",
-    "expires": 1775277366.593923,
+    "expires": 1775392867.054848,
     "httpOnly": false,
     "secure": true,
     "sameSite": "None"
@@ -91,20 +91,20 @@
   },
   {
     "name": "gt",
-    "value": "1895304797823312134",
+    "value": "1895810245366333651",
     "domain": ".x.com",
     "path": "/",
-    "expires": 1740719850.560164,
+    "expires": 1740840359.930789,
     "httpOnly": false,
     "secure": true,
     "sameSite": "Lax"
   },
   {
     "name": "personalization_id",
-    "value": "\"v1_0wU97Tw2sQBRvtz2i1itww==\"",
+    "value": "\"v1_QhgFEc6Lq8z8rjSUt6WzXw==\"",
     "domain": ".x.com",
     "path": "/",
-    "expires": 1775277366.596451,
+    "expires": 1775392867.056472,
     "httpOnly": false,
     "secure": true,
     "sameSite": "None"
